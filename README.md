@@ -1,7 +1,7 @@
 # Bot Vendas Template
 
 <p align="center">
-  <img src="assets/branding/readme-banner.png" alt="Kyoto Store Banner" width="920" />
+  <img src="https://i.imgur.com/tzvtTzR.png" alt="Kyoto Store Banner" width="920" />
 </p>
 
 <p align="center">
