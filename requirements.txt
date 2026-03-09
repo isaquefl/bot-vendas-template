@@ -1,0 +1,25 @@
+{
+  "name": "kyoto-vendas",
+  "version": "1.0.0",
+  "description": "Bot de Vendas Kyoto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.4",
+    "canvas": "^3.2.1",
+    "cookie-parser": "^1.4.7",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express-session": "^1.18.2",
+    "express": "^4.22.1",
+    "mercadopago": "^2.12.0",
+    "node-fetch": "^2.7.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.11"
+  }
+}

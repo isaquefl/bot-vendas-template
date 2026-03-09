@@ -1,0 +1,44 @@
+modules = ["nodejs-20"]
+[agent]
+expertMode = true
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "KyotoBot"
+
+[[workflows.workflow]]
+name = "KyotoBot"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node sys_runtime/index.js"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[deployment]
+deploymentTarget = "cloudrun"
+
+[userenv]
+
+[userenv.shared]
+MP_CLIENT_ID = "SEU_MP_CLIENT_ID_AQUI"
+MP_CLIENT_SECRET = "SEU_MP_CLIENT_SECRET_AQUI"
+MP_PUBLIC_KEY = "SEU_MP_PUBLIC_KEY_AQUI"
+MP_ACCESS_TOKEN = "SEU_MP_ACCESS_TOKEN_AQUI"
+
+[nix]
+channel = "stable-25_05"
