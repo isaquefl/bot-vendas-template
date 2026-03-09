@@ -1,7 +1,7 @@
 # Bot Vendas Template
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3R3dW1teW4ycGl6dWQwZnQ3dHpsN2N5Y3c5MTRpYWhxN2oxM3J4cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HU7JIy8WQ6Bf7W0/giphy.gif" alt="Preview do bot" width="680" />
+  <img src="assets/branding/readme-banner.png" alt="Kyoto Store Banner" width="920" />
 </p>
 
 <p align="center">
